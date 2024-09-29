@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tebak Angka</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+  <div class="controls-container">
+    <p id="result"></p>
+    <button id="start-btn">Mulai Permainan</button>
+  </div>
+  <div class="container hide">
+    <h1>Game Tebak Angka</h1>
+    <p id="level-info">Level 0</p>
+    <input type="number" id="tebakan" placeholder="Masukkan tebakan">
+    <button id="submit-btn">Tebak</button>
+    <p id="message"></p>
+  </div>
+  <div id="success-message" class="hide">
+    <p id="success-text"></p>
+    <button id="next-level-btn">Mulai Level Selanjutnya</button>
+  </div>
+
+  <script src="./assets/index.js"></script>
+</body>
+
+</html>
